@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1,
+        "image": "30-seconds.jpg",
+        "name": "30 Seconds",
+        "price": 38.49,
+        "description": "SmartGames - 30 Seconds (UK Edition) will give your family and friends hours of enjoyment and laughter. It's the most exciting board game you'll ever play! In this fast paced general knowledge game, players have just 30 seconds to describe five names on their chosen card, for teammates to guess.",
+        "categories": ["Board Games", "Puzzles"],
+        "links": ["https://www.amazon.com/SmartGames-Seconds-Multi-Player-Board-Game/dp/B07YLZCHZZ/ref=sr_1_2?crid=1KRT46SMWL3MZ&dib=eyJ2IjoiMSJ9.DETAbI6KDf56xPsi9mAkRzib5BHyl0ofC1C2wkqKtT63nme7k22LlMhQlox3lkbsDy-cJXcRLR_PabxCCU5gXp8suX4tqajK8FJ5ov9c7RZwdzRm1R6WjgApTcGjspcSb4xPKFnSPdWQ3v2Xj3Oo58pXEQYe66KJm0SZiE-EhDilsbPfcjjjhAludatKO-dQWu8SmONYQO3m8zteM3FPBsi9Ahxni3sIDPuvFboVngt_Bk-iKkKy_zBMGC326dCUlQkYqdop6qbWK5nbJpMQvx1OgRwapv8I-rzGGCojm14.3SawcBe3Bh4iVbPg0RAMJq7Tr-rqGaCDB7uE1YPIt4s&dib_tag=se&keywords=30+seconds&qid=1733195672&sprefix=30+seconds%2Caps%2C138&sr=8-2"]
+    }
+
+]
+    // {
+    //     "id": 2,
+    //     "image": "ab-roller.webp",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 3,
+    //     "image": "airpods-max.webp",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 4,
+    //     "image": "airtag.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 5,
+    //     "image": "apple-airpods.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 6,
+    //     "image": "apple-watch-vrouw.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 7,
+    //     "image": "audio-technica.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 8,
+    //     "image": "bbq-egg.webp",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 9,
+    //     "image": "blender.webp",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 10,
+    //     "image": "body-care-set.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 11,
+    //     "image": "bolsius-geurkaars.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+
+    // {
+    //     "id": 12,
+    //     "image": "bonsai-starter-kit.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 13,
+    //     "image": "bulletjournal.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 14,
+    //     "image": "canon-camera.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 15,
+    //     "image": "carhartt-beanie.webp",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 16,
+    //     "image": "catan.webp",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 17,
+    //     "image": "chromecast.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 18,
+    //     "image": "cocktail-machine.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 19,
+    //     "image": "diamant-messenblok.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 20,
+    //     "image": "digitale-camera.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 21,
+    //     "image": "monopoly.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 22,
+    //     "image": "plants.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 23,
+    //     "image": "powerbank.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 24,
+    //     "image": "reisset-potjes.webp",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 25,
+    //     "image": "rituals-set.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 26,
+    //     "image": "sieradendoos.webp",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 27,
+    //     "image": "simpel-boek.webp",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 28,
+    //     "image": "skincare.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 29,
+    //     "image": "springtouw.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 30,
+    //     "image": "woodwick-kaars.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 31,
+    //     "image": "yankees-cap.avif",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }
+
+    // {
+    //     "id": 32,
+    //     "image": "yogamat.jpg",
+    //     "name":  ,
+    //     "price":   ,
+    //     "description":  ,
+    //     "categories": [],
+    //     "links": []
+    // }

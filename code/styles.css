@@ -1,0 +1,100 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #e0e0e0;
+}
+
+.filter-category h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.fixed-width-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.fixed-width-options label {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+    justify-content: center;
+}
+
+.fixed-width-options label:hover {
+    background-color: #b2ebf2;
+}
+
+.filter-options {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.filter-options label {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+.filter-options label span {
+    padding: 0 5px;
+}
+
+.filter-options label:hover {
+    background-color: #b2ebf2;
+}
+
+.filter-options input[type="checkbox"], .fixed-width-options input[type="checkbox"] {
+    display: none;
+}
+
+#selected-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.selected-filter {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#gift-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+
+.selected-filter:nth-child(1) { background-color: #f55c4e; }
+.selected-filter:nth-child(2) { background-color: #4ec3f5; }
+.selected-filter:nth-child(3) { background-color: #4ef58e; }
+.selected-filter:nth-child(4) { background-color: #f5d94e; }
+.selected-filter:nth-child(5) { background-color: #f5b54e; }

@@ -1,71 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ikzoekcadeau.nl</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Finder</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <header>
-        <h1><span>ikzoekcadeau.nl</span></h1>
-    </header>
-
+  <div id="filter-bar">
+    <h2>Filters</h2>
+    <div class="filter-options">
+      <h3>Hobbies & Interests</h3>
+      <label><input type="checkbox" value="Reading"> Reading 📚</label>
+      <label><input type="checkbox" value="Fitness"> Fitness 🏋️‍♀️</label>
+      <label><input type="checkbox" value="Cooking"> Cooking 🍳</label>
+      <!-- Add more filters here -->
+    </div>
+    <div class="filter-options">
+      <h3>Budget</h3>
+      <label><input type="checkbox" value="1-25"> €1-25</label>
+      <label><input type="checkbox" value="25-50"> €25-50</label>
+      <!-- Add more filters here -->
+    </div>
     <div id="selected-filters"></div>
+  </div>
+  <div id="gift-list"></div>
 
-    <div class="sidebar">
-        <input type="text" placeholder="Search..." class="search-bar">
-        
-        <div class="filter-category">
-            <h3>Interests & Hobbies</h3>
-            <div class="filter-options">
-                <label><input type="checkbox" value="Reading"> 📚 Reading</label>
-                <label><input type="checkbox" value="Fitness"> 🏋️‍♀️ Fitness</label>
-                <label><input type="checkbox" value="Cooking"> 🍳 Cooking</label>
-                <label><input type="checkbox" value="Gardening"> 🌱 Gardening</label>
-                <label><input type="checkbox" value="Photography"> 📸 Photography</label>
-                <label><input type="checkbox" value="Travel"> ✈️ Travel</label>
-                <label><input type="checkbox" value="Art"> 🎨 Art</label>
-                <label><input type="checkbox" value="Music"> 🎶 Music</label>
-                <label><input type="checkbox" value="Writing"> ✍️ Writing</label>
-                <label><input type="checkbox" value="Gaming"> 🎮 Gaming</label>
-                <label><input type="checkbox" value="Yoga"> 🧘‍♂️ Yoga</label>
-                <label><input type="checkbox" value="Sports"> ⚽ Sports</label>
-                <label><input type="checkbox" value="Fashion"> 👗 Fashion</label>
-                <label><input type="checkbox" value="Beauty"> 💄 Beauty</label>
-                <label><input type="checkbox" value="Home Decor"> 🛋️ Home Decor</label>
-                <label><input type="checkbox" value="Technology"> 💡 Technology</label>
-                <label><input type="checkbox" value="Board Games"> 🎲 Board Games</label>
-                <label><input type="checkbox" value="Cars"> 🚗 Cars</label>
-                <label><input type="checkbox" value="Gadgets">💻 Gadgets</label>
-            </select>
-        </div>
-
-        <div class="filter-category">
-            <h3>Budget</h3>
-            <div class="filter-options">
-                <label><input type="checkbox" value="1-25"> €1-25</label>
-                <label><input type="checkbox" value="25-50"> €25-50</label>
-                <label><input type="checkbox" value="50-100"> €50-100</label>
-                <label><input type="checkbox" value="100-250"> €100-250</label>
-                <label><input type="checkbox" value="250-1000"> €250-1000</label>
-            </div>
-        </div>
-
-        <div class="filter-category">
-            <h3>Gender</h3>
-            <div class="filter-options">
-                <label><input type="checkbox" value="Male"> Male</label>
-                <label><input type="checkbox" value="Female"> Female</label>
-            </div>
-        </div>
-    </div>
-
-    <div class="product-grid" id="results">
-    </div>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

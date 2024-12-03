@@ -1,322 +1,244 @@
 [
     {
-        "id": 1,
-        "image": "30-seconds.jpg",
-        "name": "30 Seconds",
-        "price": 38.49,
-        "description": "SmartGames - 30 Seconds (UK Edition) will give your family and friends hours of enjoyment and laughter. It's the most exciting board game you'll ever play! In this fast paced general knowledge game, players have just 30 seconds to describe five names on their chosen card, for teammates to guess.",
-        "categories": ["Board Games", "Puzzles"],
-        "links": ["https://www.amazon.com/SmartGames-Seconds-Multi-Player-Board-Game/dp/B07YLZCHZZ/ref=sr_1_2?crid=1KRT46SMWL3MZ&dib=eyJ2IjoiMSJ9.DETAbI6KDf56xPsi9mAkRzib5BHyl0ofC1C2wkqKtT63nme7k22LlMhQlox3lkbsDy-cJXcRLR_PabxCCU5gXp8suX4tqajK8FJ5ov9c7RZwdzRm1R6WjgApTcGjspcSb4xPKFnSPdWQ3v2Xj3Oo58pXEQYe66KJm0SZiE-EhDilsbPfcjjjhAludatKO-dQWu8SmONYQO3m8zteM3FPBsi9Ahxni3sIDPuvFboVngt_Bk-iKkKy_zBMGC326dCUlQkYqdop6qbWK5nbJpMQvx1OgRwapv8I-rzGGCojm14.3SawcBe3Bh4iVbPg0RAMJq7Tr-rqGaCDB7uE1YPIt4s&dib_tag=se&keywords=30+seconds&qid=1733195672&sprefix=30+seconds%2Caps%2C138&sr=8-2"]
+      "image": "./images/30-seconds.jpg",
+      "name": "Stylish Mug",
+      "price": 12.99,
+      "description": "A trendy ceramic mug for coffee lovers.",
+      "categories": ["Cooking", "Art"],
+      "links": ["https://example.com/mug"]
+    },
+    {
+      "image": "./images/ab-roller.webp",
+      "name": "Fitness Band",
+      "price": 45.00,
+      "description": "A fitness band for tracking your daily activities.",
+      "categories": ["Fitness", "Sports"],
+      "links": ["https://example.com/fitness-band"]
+    },
+    {
+      "image": "images/gift3.jpg",
+      "name": "Notebook Set",
+      "price": 22.50,
+      "description": "Beautiful notebooks for journaling or sketching.",
+      "categories": ["Reading", "Art"],
+      "links": ["https://example.com/notebook"]
+    },
+    {
+      "image": "images/gift4.jpg",
+      "name": "Bluetooth Headphones",
+      "price": 60.00,
+      "description": "Wireless headphones with great sound quality.",
+      "categories": ["Technology", "Music"],
+      "links": ["https://example.com/headphones"]
+    },
+    {
+      "image": "images/gift5.jpg",
+      "name": "Cookware Set",
+      "price": 99.99,
+      "description": "A non-stick cookware set for home chefs.",
+      "categories": ["Cooking"],
+      "links": ["https://example.com/cookware"]
+    },
+    {
+      "image": "images/gift6.jpg",
+      "name": "Yoga Mat",
+      "price": 30.00,
+      "description": "Comfortable yoga mat for home and studio use.",
+      "categories": ["Fitness", "Health"],
+      "links": ["https://example.com/yoga-mat"]
+    },
+    {
+      "image": "images/gift7.jpg",
+      "name": "Board Game",
+      "price": 25.00,
+      "description": "Fun family board game for all ages.",
+      "categories": ["Games", "Family"],
+      "links": ["https://example.com/board-game"]
+    },
+    {
+      "image": "images/gift8.jpg",
+      "name": "Coffee Maker",
+      "price": 80.00,
+      "description": "Brews a perfect cup every morning.",
+      "categories": ["Cooking", "Technology"],
+      "links": ["https://example.com/coffee-maker"]
+    },
+    {
+      "image": "images/gift9.jpg",
+      "name": "Canvas Art Set",
+      "price": 35.00,
+      "description": "Includes paints, brushes, and canvases.",
+      "categories": ["Art"],
+      "links": ["https://example.com/art-set"]
+    },
+    {
+      "image": "images/gift10.jpg",
+      "name": "Smart Speaker",
+      "price": 120.00,
+      "description": "Voice-activated smart assistant.",
+      "categories": ["Technology"],
+      "links": ["https://example.com/smart-speaker"]
+    },
+    {
+      "image": "images/gift11.jpg",
+      "name": "Wine Glass Set",
+      "price": 40.00,
+      "description": "Elegant glasses for wine enthusiasts.",
+      "categories": ["Cooking"],
+      "links": ["https://example.com/wine-glass"]
+    },
+    {
+      "image": "images/gift12.jpg",
+      "name": "E-Reader",
+      "price": 150.00,
+      "description": "Read thousands of books on the go.",
+      "categories": ["Reading", "Technology"],
+      "links": ["https://example.com/e-reader"]
+    },
+    {
+      "image": "images/gift13.jpg",
+      "name": "Garden Tool Set",
+      "price": 50.00,
+      "description": "Perfect for hobby gardeners.",
+      "categories": ["Outdoors"],
+      "links": ["https://example.com/garden-tools"]
+    },
+    {
+      "image": "images/gift14.jpg",
+      "name": "Outdoor Camping Tent",
+      "price": 200.00,
+      "description": "Waterproof and durable for outdoor adventures.",
+      "categories": ["Outdoors", "Adventure"],
+      "links": ["https://example.com/tent"]
+    },
+    {
+      "image": "images/gift15.jpg",
+      "name": "Gourmet Chocolate Box",
+      "price": 30.00,
+      "description": "Luxury chocolates for every occasion.",
+      "categories": ["Cooking"],
+      "links": ["https://example.com/chocolate"]
+    },
+    {
+      "image": "images/gift1.jpg",
+      "name": "Stylish Mug",
+      "price": 12.99,
+      "description": "A trendy ceramic mug for coffee lovers.",
+      "categories": ["Cooking", "Art"],
+      "links": ["https://example.com/mug"]
+    },
+    {
+      "image": "images/gift2.jpg",
+      "name": "Fitness Band",
+      "price": 45.00,
+      "description": "A fitness band for tracking your daily activities.",
+      "categories": ["Fitness", "Sports"],
+      "links": ["https://example.com/fitness-band"]
+    },
+    {
+      "image": "images/gift3.jpg",
+      "name": "Notebook Set",
+      "price": 22.50,
+      "description": "Beautiful notebooks for journaling or sketching.",
+      "categories": ["Reading", "Art"],
+      "links": ["https://example.com/notebook"]
+    },
+    {
+      "image": "images/gift4.jpg",
+      "name": "Bluetooth Headphones",
+      "price": 60.00,
+      "description": "Wireless headphones with great sound quality.",
+      "categories": ["Technology", "Music"],
+      "links": ["https://example.com/headphones"]
+    },
+    {
+      "image": "images/gift5.jpg",
+      "name": "Cookware Set",
+      "price": 99.99,
+      "description": "A non-stick cookware set for home chefs.",
+      "categories": ["Cooking"],
+      "links": ["https://example.com/cookware"]
+    },
+    {
+      "image": "images/gift6.jpg",
+      "name": "Yoga Mat",
+      "price": 30.00,
+      "description": "Comfortable yoga mat for home and studio use.",
+      "categories": ["Fitness", "Health"],
+      "links": ["https://example.com/yoga-mat"]
+    },
+    {
+      "image": "images/gift7.jpg",
+      "name": "Board Game",
+      "price": 25.00,
+      "description": "Fun family board game for all ages.",
+      "categories": ["Games", "Family"],
+      "links": ["https://example.com/board-game"]
+    },
+    {
+      "image": "images/gift8.jpg",
+      "name": "Coffee Maker",
+      "price": 80.00,
+      "description": "Brews a perfect cup every morning.",
+      "categories": ["Cooking", "Technology"],
+      "links": ["https://example.com/coffee-maker"]
+    },
+    {
+      "image": "images/gift9.jpg",
+      "name": "Canvas Art Set",
+      "price": 35.00,
+      "description": "Includes paints, brushes, and canvases.",
+      "categories": ["Art"],
+      "links": ["https://example.com/art-set"]
+    },
+    {
+      "image": "images/gift10.jpg",
+      "name": "Smart Speaker",
+      "price": 120.00,
+      "description": "Voice-activated smart assistant.",
+      "categories": ["Technology"],
+      "links": ["https://example.com/smart-speaker"]
+    },
+    {
+      "image": "images/gift11.jpg",
+      "name": "Wine Glass Set",
+      "price": 40.00,
+      "description": "Elegant glasses for wine enthusiasts.",
+      "categories": ["Cooking"],
+      "links": ["https://example.com/wine-glass"]
+    },
+    {
+      "image": "images/gift12.jpg",
+      "name": "E-Reader",
+      "price": 150.00,
+      "description": "Read thousands of books on the go.",
+      "categories": ["Reading", "Technology"],
+      "links": ["https://example.com/e-reader"]
+    },
+    {
+      "image": "images/gift13.jpg",
+      "name": "Garden Tool Set",
+      "price": 50.00,
+      "description": "Perfect for hobby gardeners.",
+      "categories": ["Outdoors"],
+      "links": ["https://example.com/garden-tools"]
+    },
+    {
+      "image": "images/gift14.jpg",
+      "name": "Outdoor Camping Tent",
+      "price": 200.00,
+      "description": "Waterproof and durable for outdoor adventures.",
+      "categories": ["Outdoors", "Adventure"],
+      "links": ["https://example.com/tent"]
+    },
+    {
+      "image": "images/gift15.jpg",
+      "name": "Gourmet Chocolate Box",
+      "price": 30.00,
+      "description": "Luxury chocolates for every occasion.",
+      "categories": ["Cooking"],
+      "links": ["https://example.com/chocolate"]
     }
-
-]
-    // {
-    //     "id": 2,
-    //     "image": "ab-roller.webp",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 3,
-    //     "image": "airpods-max.webp",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 4,
-    //     "image": "airtag.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 5,
-    //     "image": "apple-airpods.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 6,
-    //     "image": "apple-watch-vrouw.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 7,
-    //     "image": "audio-technica.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 8,
-    //     "image": "bbq-egg.webp",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 9,
-    //     "image": "blender.webp",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 10,
-    //     "image": "body-care-set.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 11,
-    //     "image": "bolsius-geurkaars.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-
-    // {
-    //     "id": 12,
-    //     "image": "bonsai-starter-kit.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 13,
-    //     "image": "bulletjournal.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 14,
-    //     "image": "canon-camera.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 15,
-    //     "image": "carhartt-beanie.webp",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 16,
-    //     "image": "catan.webp",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 17,
-    //     "image": "chromecast.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 18,
-    //     "image": "cocktail-machine.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 19,
-    //     "image": "diamant-messenblok.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 20,
-    //     "image": "digitale-camera.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 21,
-    //     "image": "monopoly.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 22,
-    //     "image": "plants.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 23,
-    //     "image": "powerbank.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 24,
-    //     "image": "reisset-potjes.webp",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 25,
-    //     "image": "rituals-set.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 26,
-    //     "image": "sieradendoos.webp",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 27,
-    //     "image": "simpel-boek.webp",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 28,
-    //     "image": "skincare.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 29,
-    //     "image": "springtouw.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 30,
-    //     "image": "woodwick-kaars.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 31,
-    //     "image": "yankees-cap.avif",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
-
-    // {
-    //     "id": 32,
-    //     "image": "yogamat.jpg",
-    //     "name":  ,
-    //     "price":   ,
-    //     "description":  ,
-    //     "categories": [],
-    //     "links": []
-    // }
+  ]
+  
+  

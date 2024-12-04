@@ -1,14 +1,16 @@
 const selectedFiltersContainer = document.getElementById('selected-filters');
 const filterOptions = document.querySelectorAll('.filter-options input[type="checkbox"]');
+const priceSlider = document.getElementById('price-slider');
+const priceDisplay = document.getElementById('price-display');
 const giftList = document.getElementById('gift-list');
 
 const MAX_SELECTION = 5;
 const colors = ['#f55c4e', '#4ec3f5', '#4ef58e', '#f5d94e', '#f5b54e'];
 
 let selectedFilters = [];
+let maxPrice = 500;
 let giftsData = [];
 
-// Load JSON data
 async function loadGifts() {
   try {
     const response = await fetch('gifts.json');
@@ -20,15 +22,18 @@ async function loadGifts() {
   }
 }
 
-// Render gifts based on filters
-function renderGifts(gifts) {
-  giftList.innerHTML = ''; // Clear the current list
+function matchesPriceFilter(price) {
+  return price <= maxPrice;
+}
 
-  const filteredGifts = selectedFilters.length
-    ? gifts.filter(gift =>
-        selectedFilters.some(filter => gift.categories.includes(filter))
-      )
-    : gifts;
+function renderGifts(gifts) {
+  giftList.innerHTML = '';
+
+  const filteredGifts = gifts.filter(gift => {
+    const matchesHobby = hobbyFilters.length === 0 || hobbyFilters.some(filter => gift.categories.includes(filter));
+    const matchesPrice = matchesPriceFilter(gift.price);
+    return matchesHobby && matchesPrice;
+  });
 
   filteredGifts.forEach(gift => {
     const giftContainer = document.createElement('div');
@@ -39,27 +44,30 @@ function renderGifts(gifts) {
     img.alt = gift.name;
     giftContainer.appendChild(img);
 
+    const infoContainer = document.createElement('div');
+    infoContainer.className = 'info-container';
+
     const name = document.createElement('h3');
     name.textContent = gift.name;
-    giftContainer.appendChild(name);
+    infoContainer.appendChild(name);
 
     const price = document.createElement('p');
     price.textContent = `€${gift.price.toFixed(2)}`;
-    giftContainer.appendChild(price);
+    infoContainer.appendChild(price);
 
-    gift.links.forEach(link => {
-      const a = document.createElement('a');
-      a.href = link;
-      a.textContent = 'View Gift';
-      a.target = '_blank';
-      giftContainer.appendChild(a);
+    const button = document.createElement('button');
+    button.textContent = 'View Gift';
+    button.className = 'view-gift-btn';
+    button.addEventListener('click', () => {
+      viewGift(gift.id);
     });
+    infoContainer.appendChild(button);
 
+    giftContainer.appendChild(infoContainer);
     giftList.appendChild(giftContainer);
   });
 }
 
-// Handle filter selection
 filterOptions.forEach((checkbox, index) => {
   checkbox.addEventListener('change', () => {
     const selectedCount = selectedFiltersContainer.childElementCount;
@@ -70,7 +78,6 @@ filterOptions.forEach((checkbox, index) => {
         alert('You can select a maximum of 5 filters.');
         return;
       }
-
       selectedFilters.push(checkbox.value);
       const filterLabel = document.createElement('div');
       filterLabel.classList.add('selected-filter');
@@ -91,10 +98,70 @@ filterOptions.forEach((checkbox, index) => {
       );
       if (filterToRemove) filterToRemove.remove();
     }
-
     renderGifts(giftsData);
   });
 });
 
-// Initial load
+function renderGifts(gifts) {
+  giftList.innerHTML = '';
+
+  const hobbyFilters = selectedFilters.filter(filter => !filter.includes('-'));
+
+  const filteredGifts = gifts.filter(gift => {
+    const matchesHobby = hobbyFilters.length === 0 || hobbyFilters.some(filter => gift.categories.includes(filter));
+    const matchesPrice = matchesPriceFilter(gift.price);
+    return matchesHobby && matchesPrice;
+  });
+
+  filteredGifts.forEach(gift => {
+    const giftContainer = document.createElement('div');
+    giftContainer.className = 'gift';
+
+    const img = document.createElement('img');
+    img.src = gift.image;
+    img.alt = gift.name;
+    giftContainer.appendChild(img);
+
+    const infoContainer = document.createElement('div');
+    infoContainer.className = 'info-container';
+
+    const name = document.createElement('h3');
+    name.textContent = gift.name;
+    infoContainer.appendChild(name);
+
+    const price = document.createElement('p');
+    price.textContent = `€${gift.price.toFixed(2)}`;
+    infoContainer.appendChild(price);
+
+    const button = document.createElement('button');
+    button.textContent = 'View Gift';
+    button.className = 'view-gift-btn';
+    button.addEventListener('click', () => {
+      viewGift(gift.id); 
+    });
+    infoContainer.appendChild(button);
+
+    giftContainer.appendChild(infoContainer);
+    giftList.appendChild(giftContainer);
+  });
+}
+
+
+priceSlider.addEventListener('input', () => {
+  maxPrice = parseInt(priceSlider.value, 10);
+  priceDisplay.textContent = `€${maxPrice}`;
+  renderGifts(giftsData);
+});
+
+function viewGift(giftId) {
+  const gift = giftsData.find(g => g.id === giftId); 
+
+  if (gift) {
+      localStorage.setItem('giftDetail', JSON.stringify(gift));
+
+      window.location.href = 'gift-detail.html';
+  }
+}
+
+
 loadGifts();

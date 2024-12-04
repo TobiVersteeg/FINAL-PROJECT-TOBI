@@ -1,0 +1,82 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    max-height:600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-btn {
+    background-color: #f55c4e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-btn:hover {
+    background-color: #e44a3f;
+}
+
+.gift-details {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gift-image img {
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.gift-info {
+    flex-grow: 1;
+}
+
+.gift-info h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.gift-info p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.gift-info #gift-price {
+    font-size: 24px;
+    color: #f55c4e;
+    font-weight: bold;
+}
+
+.gift-info #gift-categories {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+.view-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #4ec3f5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.view-link:hover {
+    background-color: #44b1c3;
+}

@@ -1,244 +1,326 @@
 [
     {
-      "image": "./images/30-seconds.jpg",
-      "name": "Stylish Mug",
-      "price": 12.99,
-      "description": "A trendy ceramic mug for coffee lovers.",
-      "categories": ["Cooking", "Art"],
-      "links": ["https://example.com/mug"]
+      "id": 1,
+      "image": "./images/30seconds.jpg",
+      "name": "30 Seconds",
+      "price": 32.99,
+      "description": "A fun game to play with friends. Guess the five words on a card without saying the words, quite a challenge!",
+      "categories": ["Board Games"],
+      "links": ["https://www.amazon.com/SmartGames-Seconds-Multi-Player-Board-Game/dp/B07YLZCHZZ/ref=asc_df_B07YLZCHZZ?mcid=cb3c06b999bc3445a9887ba25fcc675a&tag=hyprod-20&linkCode=df0&hvadid=693308331088&hvpos=&hvnetw=g&hvrand=12135827776313985199&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9002079&hvtargid=pla-840647997770&psc=1"]
     },
     {
-      "image": "./images/ab-roller.webp",
-      "name": "Fitness Band",
-      "price": 45.00,
-      "description": "A fitness band for tracking your daily activities.",
+      "id": 2,
+      "image": "./images/abroller.webp",
+      "name": "Ab Roller",
+      "price": 15.00,
+      "description": "A great way to train your abdominal muscles. Convenient to use anywhere (although quite challenging).",
       "categories": ["Fitness", "Sports"],
-      "links": ["https://example.com/fitness-band"]
+      "links": ["https://www.amazon.com/Vinsguir-Roller-Wheel-Equipment-Accessories/dp/B09W9HV6MN/ref=sr_1_9?crid=3I8JHAR6HF508&dib=eyJ2IjoiMSJ9.nxzgXAEmWAmM0j4-wuhxK15DpIX0MldxebDHgDsh9MfrmSSIlIe37R8OuaiVohPK5AZ9N_5viTgV8UBEuPq_Fz2NlSEgQ_SGi-GAgdCjOlYWx2G-w7bIx_3c_QVX_ObgLIh4M8fUgXrpgsDr1qGx3YsM22ckAAR7cm73OWEbMXJS-qfhdl2SPxUerd8pntgmu-KprNQNWao1dUxHDiS1YJw-SFuOWrPZlvUjrJEHCesBMbdYrGixjPRAw9WyWVovMy6PvRyEArs8LY_mZUcOlHUvhDAFDhhIrPWgsLGIKA4.jXk-fMWBw7iAeV7w8PcdaQigxYO4F6OJddO3xJL_NAQ&dib_tag=se&keywords=ab+roller&qid=1733278333&sprefix=ab+rolle%2Caps%2C132&sr=8-9"]
     },
     {
-      "image": "images/gift3.jpg",
-      "name": "Notebook Set",
-      "price": 22.50,
-      "description": "Beautiful notebooks for journaling or sketching.",
-      "categories": ["Reading", "Art"],
-      "links": ["https://example.com/notebook"]
+      "id": 3,
+      "image": "./images/airpodsmax.webp",
+      "name": "Apple Airpods Max",
+      "price": 399.00,
+      "description": "The Apple Airpods Max are arguably the best headphones out there. Includes noise cancelling features and is very comfortable.",
+      "categories": ["Fitness", "Music", "Gadgets"],
+      "links": ["https://www.amazon.com/New-Apple-AirPods-Max-Blue/dp/B08PZJN7BD/ref=sr_1_1?crid=1M96WPDYK5O1E&dib=eyJ2IjoiMSJ9.UTXIXfoZLMfAqJq9HXZn8QCUvwskRvWMuQfEaGgEYnz43nzdb0Xmwh2IfzX3Biu8DBXyoLNZujZEJPTs4gezUBBct8LyIalsHwvC_sZ2CBIqe07l8YPKA1tAg91NPFsLuk-074KA-uC5DFI-Zt-_w0hZ5xZzEejmwmVLt8HQiLrRYjDhN2wyui4v0ttBji6dfRY0aVqHsmASHAKiNR7VcqWtexCPy2DK8Xo9xym0_y4.DmRBEffQPKzrVTSqxmwnfs1DQPTzwlV4J4ImI8Q-feQ&dib_tag=se&keywords=airpods+max&qid=1733278380&sprefix=airpods+max%2Caps%2C157&sr=8-1"]
     },
     {
-      "image": "images/gift4.jpg",
-      "name": "Bluetooth Headphones",
-      "price": 60.00,
-      "description": "Wireless headphones with great sound quality.",
-      "categories": ["Technology", "Music"],
-      "links": ["https://example.com/headphones"]
-    },
-    {
-      "image": "images/gift5.jpg",
-      "name": "Cookware Set",
-      "price": 99.99,
-      "description": "A non-stick cookware set for home chefs.",
-      "categories": ["Cooking"],
-      "links": ["https://example.com/cookware"]
-    },
-    {
-      "image": "images/gift6.jpg",
-      "name": "Yoga Mat",
-      "price": 30.00,
-      "description": "Comfortable yoga mat for home and studio use.",
-      "categories": ["Fitness", "Health"],
-      "links": ["https://example.com/yoga-mat"]
-    },
-    {
-      "image": "images/gift7.jpg",
-      "name": "Board Game",
-      "price": 25.00,
-      "description": "Fun family board game for all ages.",
-      "categories": ["Games", "Family"],
-      "links": ["https://example.com/board-game"]
-    },
-    {
-      "image": "images/gift8.jpg",
-      "name": "Coffee Maker",
-      "price": 80.00,
-      "description": "Brews a perfect cup every morning.",
-      "categories": ["Cooking", "Technology"],
-      "links": ["https://example.com/coffee-maker"]
-    },
-    {
-      "image": "images/gift9.jpg",
-      "name": "Canvas Art Set",
+      "id": 4,
+      "image": "./images/airtag.jpg",
+      "name": "Apple Airtag",
       "price": 35.00,
-      "description": "Includes paints, brushes, and canvases.",
-      "categories": ["Art"],
-      "links": ["https://example.com/art-set"]
+      "description": "Never lose anything again with the Apple Airtag. Very convenient when travelling with luggage or if you're simply a forgetful person.",
+      "categories": ["Gadgets", "Travel"],
+      "links": ["https://www.amazon.com/Apple-MX532AM-A-AirTag/dp/B0933BVK6T/ref=sr_1_4?crid=3RL6NFM2MOX60&dib=eyJ2IjoiMSJ9.e2XNlqNqghs7P8b1dt7bgQ-9CDYbNv7Cp5GnBi3qH4oFMo-k7w1dViM1iRC4EtWR0hqYNf53ydhtERZ3BENsRmg63EpxaNAHOIMDOyMO-3YmBu1kThTpfjd7MowhplGemysiQcuYJLYb215r1PHbVYkX8l1wDSS6njScJJX3zseA27M86UyvopQsYbEvQSEUCDtOpK-9ISnmXBsG-ewjpMdPq_lVMFz-ZmFV1QSPFXw.faE4ie2LO65xSb9UO7azIy0Z6VqtrFsNwNgpsKdfTqE&dib_tag=se&keywords=airtag&qid=1733278414&sprefix=airag%2Caps%2C149&sr=8-4"]
     },
     {
-      "image": "images/gift10.jpg",
-      "name": "Smart Speaker",
-      "price": 120.00,
-      "description": "Voice-activated smart assistant.",
-      "categories": ["Technology"],
-      "links": ["https://example.com/smart-speaker"]
+      "id": 5,
+      "image": "./images/apple-airpods-4.jpg",
+      "name": "Apple Airpods 4",
+      "price": 199.99,
+      "description": "The newest Apple Airpods are comfortable and convenient for everyday use. Listen to music everywhere!",
+      "categories": ["Gadgets", "Fitness", "Music"],
+      "links": ["https://www.amazon.com/dp/B0DGHMNQ5Z/ref=fs_a_mdt2_us0"]
     },
     {
-      "image": "images/gift11.jpg",
-      "name": "Wine Glass Set",
-      "price": 40.00,
-      "description": "Elegant glasses for wine enthusiasts.",
-      "categories": ["Cooking"],
-      "links": ["https://example.com/wine-glass"]
+      "id": 6,
+      "image": "./images/apple-watch-vrouw.jpg",
+      "name": "Apple Watch",
+      "price": 230.00,
+      "description": "The Apple Watch is a great gadget that makes everyday life just a bit easier. Connects great to other Apple gadgets, and great for tracking fitness stats.",
+      "categories": ["Fitness", "Gadgets", "Sports", "Fashion"],
+      "links": ["https://www.amazon.com/Apple-Cellular-Smartwatch-Starlight-Detection/dp/B0CHX6VPP5/ref=sr_1_2?crid=3K4I4COJRW6QV&dib=eyJ2IjoiMSJ9.30SM9qdM5LJc2jLoYHC2__61w_TQNIJoW0sf-5j2Phs5aGmU52zhOehzdwr81kplhVL6R0N7wk7_G8ckKX--Fh2HVfLNhGLTbXxZVHvBDbSbW_7_oUqCxrseQCUqMmxp9NwmQgs433cO0-xoUzEM3BEsjpQtE6kg4bahSIcp9KKKpM2-mo7NQaZVjCD9PYfiht0q1sgM0XO09ZqAjWVq8vcKRwuf_rN3Qckp7qF2VR8.HCXHDJSYq7FJWhFXGt2-lKdGTEgFoFN2rNHSpGD_Npw&dib_tag=se&keywords=apple+watch&qid=1733278870&sprefix=apple+watch%2Caps%2C160&sr=8-2"]
     },
     {
-      "image": "images/gift12.jpg",
-      "name": "E-Reader",
-      "price": 150.00,
-      "description": "Read thousands of books on the go.",
-      "categories": ["Reading", "Technology"],
-      "links": ["https://example.com/e-reader"]
+      "id": 7,
+      "image": "./images/atomichabits.jpg",
+      "name": "Atomic Habits",
+      "price": 23.99,
+      "description": "One of the greatest and most impactful self-help books out there. Great for buildings strong habits and achieving new-years resolutions!",
+      "categories": ["Reading", "Self Improvement"],
+      "links": ["https://www.amazon.com/Atomic-Habits-James-Clear-audiobook/dp/B07RFSSYBH/ref=sr_1_1?crid=4AQL723FDUDA&dib=eyJ2IjoiMSJ9.Y3gnXGk0w6er6RvtJGseOHOwtN2avyL-6czIThVmHI-vGRefnIJPi94Mn1zXlTbZIM3VG26CgrZRBQs-WH0MIpqrl_T1hn6asz5argo99aVOva_q__RW9pS4A1TFVpD4Y916IgkYfzb8HKGwPX0v5WptSKlg7XfMHrqK-fN9qYg4SZLrS9rLyjl4tgiNmJRIO6SN4NmNi1ebDRA8u_BV5nfMZy3RYqDX0TTmGrPrRz0.WojKJFLdoWT_d6f7NFS9pLqNaEcy7-MybGIKh0qEM9E&dib_tag=se&keywords=atomic+habits&qid=1733278889&sprefix=atomic+habits%2Caps%2C149&sr=8-1"]
     },
     {
-      "image": "images/gift13.jpg",
-      "name": "Garden Tool Set",
-      "price": 50.00,
-      "description": "Perfect for hobby gardeners.",
-      "categories": ["Outdoors"],
-      "links": ["https://example.com/garden-tools"]
+      "id": 8,
+      "image": "./images/bbq-egg.webp",
+      "name": "BBQ Egg",
+      "price": 239.99,
+      "description": "Ready to up your BBQ'ing game? Check out this compact yet effective BBQ grill.",
+      "categories": ["Cooking", "Home Decor"],
+      "links": ["https://www.amazon.com/London-Sunshine-Ceramic-Charcoal-Griller/dp/B09477ZL9W/ref=sr_1_3?crid=3W3A8BUNWFQMK&dib=eyJ2IjoiMSJ9.yTqH06frDwhwKXkHtU3CQL-ZHiFri266CkXFB7xKEBj2TfiIJqv58knT00rbqWkm_sQuLsTuiNFRmxf6DqC5AGk3D5R95gVsXIAcRsmA8Q5xXBCwDSAQ2Fy3Zg1KjlhtUW3QD15raNbC-zai-U01fCXPVpuMuhdE-M11_yu4oyjixXnaIp6koOQXc1T4RW2DRqtQ0YiUjSmlOLVBpCOJIkXVGRNDq6ljZgwxcq_gV6E.Cj-6Jch1GpCEXB2e0qrG9273wzQbmNMz0mNNXLALQqc&dib_tag=se&keywords=bbq+egg&qid=1733278922&s=audible&sprefix=bbq+egg%2Caudible%2C110&sr=1-3"]
     },
     {
-      "image": "images/gift14.jpg",
-      "name": "Outdoor Camping Tent",
-      "price": 200.00,
-      "description": "Waterproof and durable for outdoor adventures.",
-      "categories": ["Outdoors", "Adventure"],
-      "links": ["https://example.com/tent"]
+      "id": 9,
+      "image": "./images/blender.webp",
+      "name": "Blender",
+      "price": 37.49,
+      "description": "Who doesn't need a blender? Useful for making smoothies, sauces or even milkshakes.",
+      "categories": ["Cooking", "Fitness"],
+      "links": ["https://www.amazon.com/Magic-Bullet-Blender-Small-Silver/dp/B012T634SM/ref=sr_1_2_sspa?crid=291S4MZP5ORXY&dib=eyJ2IjoiMSJ9.0WNf2vZ355AYwERfiwgaEk9v3EcMYEOhjnx3zs8A3YaH1MINbrXXhR6MidKYCjBfGNiCfZSuAwqlrKVI_VwSIIB9aPU3emxDHJbzFrc_IhkwUGKC3jAj_GjBg-OfI_YNm9Y1W0cf0BZg1wZqQO0BYyQnK4B9zO43sL72X2FPV6NU2L3VswGA3AK31dgy_t1E53cN1E5E16XDSSighoL1RB9CBj0XlnCxfRmcObRtes4.eGzQ1EBB0XmE5yiwGdqTgBioBEBCWeOjFQNI0XWyHcY&dib_tag=se&keywords=blender&qid=1733278953&sprefix=blende%2Caps%2C173&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"]
     },
     {
-      "image": "images/gift15.jpg",
-      "name": "Gourmet Chocolate Box",
-      "price": 30.00,
-      "description": "Luxury chocolates for every occasion.",
-      "categories": ["Cooking"],
-      "links": ["https://example.com/chocolate"]
+      "id": 10,
+      "image": "./images/body-care-set.jpg",
+      "name": "Rituals Body Care",
+      "price": 29.50,
+      "description": "Nobody dislikes a good body wash, shaving cream, and fragrance. Why not give all in one package?",
+      "categories": ["Beauty", "Self Improvement"],
+      "links": ["https://www.rituals.com/en-us/rituals-homme---small-gift-set-2024-1118442.html?channable=02a1d76964003131313834343234&utm_source=google&utm_medium=cpc&utm_campaign=US_B_Shopping&gad_source=1&gclid=CjwKCAiA9bq6BhAKEiwAH6bqoFsYgLp-9zeWSnubwIGUC8VV52qv-peeR4MfF0BGGj309svjeCZlnhoCbf4QAvD_BwE"]
     },
     {
-      "image": "images/gift1.jpg",
-      "name": "Stylish Mug",
-      "price": 12.99,
-      "description": "A trendy ceramic mug for coffee lovers.",
-      "categories": ["Cooking", "Art"],
-      "links": ["https://example.com/mug"]
+      "id": 11,
+      "image": "./images/bolsius-geurkaars.jpg",
+      "name": "Candles Giftset",
+      "price": 27.00,
+      "description": "Candles can improve the atmosphere in any room significantly. A great gift for any home owner.",
+      "categories": ["Home Decor", "Beauty"],
+      "links": ["https://www.amazon.ae/Bolsius-Rustic-Candle-Gift-Set/dp/B09V36N23F"]
     },
     {
-      "image": "images/gift2.jpg",
-      "name": "Fitness Band",
-      "price": 45.00,
-      "description": "A fitness band for tracking your daily activities.",
+      "id": 12,
+      "image": "./images/bonsai-starter-kit.jpg",
+      "name": "Bonsai Tree Kit",
+      "price": 24.99,
+      "description": "Ever watched Karate Kid and thought: 'I want a Bonsai tree, just like Mr. Miyagi? This is your time to shine!",
+      "categories": ["DIY", "Gardening"],
+      "links": ["https://www.amazon.ae/REALPETALED-Bonsai-Starter-Kit-Japanese/dp/B0B8P1XBP8/ref=sr_1_4?crid=308BUVWHECK23&dib=eyJ2IjoiMSJ9.at3wghjEMGz9A2yMIFTughfSHAdghPZb9LgkI64JVBZX7w44BqrR8LRIuej8IpCxP-AgEWt2LGz8T3ikojPudqyJT1CHsJ1R16_4pF6LTHUsQxu3C_KLM70wz0BGj0jLVHb8lU7Jw8CZiELxkuP3omSTA925TiwAJS31UBkQTEfrKAZzaUlCaMG3THW1dMqvacP1SWoyOGhgWSdArufTF752R91E8Fqs8bzXN7K-eKZ-KEJ2W1L0NvDTClcoNexL0oVolqgu6E1rYSxyyE4TW_X-WZIdl5HbL_lLWOBDhKM.AOzKFFLFZXS_BKdIm6o0l7234zbsMRixPFyXT9-sYy4&dib_tag=se&keywords=bonsai+starter+kit&qid=1733279294&sprefix=bonsai+starter+%2Caps%2C182&sr=8-4"]
+    },
+    {
+      "id": 13,
+      "image": "./images/bulletjournal.jpg",
+      "name": "Bulletjournal",
+      "price": 25.00,
+      "description": "A bulletjournal is great for anyone who loves to write or journal. frequently used as a planner as well.",
+      "categories": ["Writing", "Self Improvement"],
+      "links": ["https://www.amazon.ae/AHGXG-Bullet-Dotted-Journal-Hardcover/dp/B0B5XP424P/ref=sr_1_6?crid=1ZUOEAUELHEJ9&dib=eyJ2IjoiMSJ9.x5E01-cWfo2a31tceJHIHR4Xv46KXy78ypzkYCsmfzuK_7sF6qzkJ4J0_yJC3FA_-61VI2PbQ_ArQyN4PRw685HG8i90WQPT7TUe0Z5aybCRdc0h4jEAgAZUecG-uaygPtbo-NgEkhHkBWr5eBRVW82LUzremQEqCKQAHGhSjLbsjpVmbmhzN9n_jI5pp0OnHLWWWmELSgaGA_Zj-Mraua7dvMVdrvP2G6lSnjWBF-sz_BZj2jC2GVxATOdGyxf-y56CSfZzQGPVPpK5FrVoi8DOitjyjVeMj-XqkAQKPAY.mwT6SBFvUFT_j4cNiRdp0BzOOSkbDxmuM-QhoEgHQDE&dib_tag=se&keywords=bullet+journal&qid=1733279349&sprefix=bulletjourn%2Caps%2C155&sr=8-6"]
+    },
+    {
+      "id": 14,
+      "image": "./images/canon-camera.jpg",
+      "name": "Canon Camera",
+      "price": 250.00,
+      "description": "A great starter camera for anyone looking to take some nice pictures of any scenery or event. Great gift to give to travellers.",
+      "categories": ["Photography", "Art", "Travel", "Gadgets"],
+      "links": ["https://www.amazon.ae/Canon-2000D-DSLR-camera-18-55mm/dp/B07BMV268V/ref=sr_1_3?crid=1E4TVXFPJEAVX&dib=eyJ2IjoiMSJ9.9H0HFr2hGwr5rskEoqg3Et_1AJS1oDNNFp6vMUzsFScg5KsUOwv3SL0a1QV9SRSXzDQrTYf500EEbuYG_N5M7yWaIP1-C9Kn0PZiSg7wF7jOm0d68iOEcGDOkGU2lp9VrpL0aMO5sxSzEYUArZFFW_DredFWDVI9x0X6rACx0yQ22_VViXCOrBCnXzev44c9urqJcLYIoRrZlrsVvqzQoDPwf0LvoNginPjk5fPjhu0U0PAlq8BSlGqHWWh7G_WCg6oBQ1BfXJfngm2yooYLTs80Ql7tm3LcugsoEM2khRg.0GTZO6I2KOeccyYDPviXq_r6X4cxPBQDeXYjpagPDlI&dib_tag=se&keywords=canon+camera&qid=1733279367&sprefix=canon+camer%2Caps%2C150&sr=8-3"]
+    },
+    {
+      "id": 15,
+      "image": "./images/carhartt-beanie.webp",
+      "name": "Carhartt Beanie",
+      "price": 20.00,
+      "description": "During the winter, having a beanie is always nice. Having a nice-looking beanie is even nicer.",
+      "categories": ["Fashion"],
+      "links": ["https://www.amazon.ae/Carhartt-Mens-Cuffed-Beanie-Black/dp/B002G9UDYG/ref=sr_1_1?crid=1D194L2CFM0OA&dib=eyJ2IjoiMSJ9.JTkwECSAmGqHrfOuKwPkOoio_ClTLvj5TmJkuyRMKbfn383omZJeV0caJeNqfBFrYW9lyvmaJ-XkUT2n_aO1Qoxp-lkFhi5C-t8_L9T5UX3C1yQIj4mZcPK58fF_7OKldKRYIreOTASAalFhkurx_uFo3c6Jp_RMLz0kRs6g0Zt-i6EAdqOMK0QgMP7guESQm368HBwwlLYfMDkYj5OoMpjo7wWK9RSj-oT2Dop3pPrJYzukXvk5SWn75OFhluhOYQOmV2hcfiQxcyiDEIVyD-hgSSpyvm5tDWlktVGAR9o.uWVG3MM1PlX_0QWypO-HdNtvMHsKrRqOP4ceDXyywes&dib_tag=se&keywords=carhartt+beanie&qid=1733279439&sprefix=carhartt+beani%2Caps%2C185&sr=8-1"]
+    },
+    {
+      "id": 16,
+      "image": "./images/catan.webp",
+      "name": "Catan",
+      "price": 32.99,
+      "description": "A great board game to play with the whole family. Gather resources and trade your way to victory!",
+      "categories": ["Board Games"],
+      "links": ["https://www.amazon.ae/Catan-CN3071/dp/B00U26V4VQ/ref=sr_1_3?crid=127P5847V8FPU&dib=eyJ2IjoiMSJ9.CIgvkC6F4j59Ku3rQRO8HXRnMZBkONZMlndPUiT7H1VeDRSy6B7v7KwoRRh4OVmcnCv_fPu4KfWJ9Y7G1WfxEymTrIpGQ9ZmX2fTysjCs0fHt5GEszFMSONKUPvA9QZPwAAL0xfuX5OtgIyLdlF6JtBN0E9ALbJQcQfC0wDfofNyvbpC-dxbRuNlTDmwk3UWFDWZIR0vXwCIOKqsD4XRSuNmgjMDuJwfCmqmVUiT5Y2V_t-nZQ-VqlShuFhDwmTvZOufv7qIi7Jn8h-ahjjs5CQmLpv8am3iMDQ0Tqsgi1s.eoOc2AiYvYedekZ0AEWzSuou0_B-8_kGkvPN1SHVMoU&dib_tag=se&keywords=catan&qid=1733279803&sprefix=catan%2Caps%2C222&sr=8-3"]
+    },
+    {
+      "id": 17,
+      "image": "./images/chromecast.jpg",
+      "name": "Google Chromecast",
+      "price": 65.00,
+      "description": "The Chromecast allows you to view all entertainment in one hub. Makes entertainment easier and more convenient!",
+      "categories": ["Gadgets", "Home Decor"],
+      "links": ["https://www.amazon.ae/dp/B0BNP1VGQY/ref=sr_1_1?crid=UNV8BXEARDQE&dib=eyJ2IjoiMSJ9.lybIcqnqHq-u_hxjWpSFr44G1ZvuoobX0nig9N5aprSSDbAG3t-MQF9YIZFNDOW03MiNJsXv5SzFdill9Mqo46KLAnv5JiYnfrfWhj10gJaUm7CkUjBhr_yR7sOOc2MdyBHwz9FiBpRCQbD6RHziFNpHak9YKHgj29fI7Jgdn174oji-g-sMJXpGfjjJ6BCk-fmK4GzG1jJCRnQ5X0aGuM9XYWTK6jghwSYEUgMcdBuF1spJNGig_niMdyi3dzZ-Zv1oit3TCHVOLv_NwamwiuCoYFvA7B7ALGxk-eyAP_M.B3_RC4YdJ2YAbGp-RXHDR8IG-6dLm6LlXGIBf0mVA9o&dib_tag=se&keywords=google+chromecast&qid=1733279862&sprefix=google+chromecast%2Caps%2C152&sr=8-1"]
+    },
+    {
+      "id": 18,
+      "image": "./images/cocktail-machine.jpg",
+      "name": "Cocktail Maker",
+      "price": 225.99,
+      "description": "This is a perfect gift for the cocktail lover who is either to lazy or too incompetent to make their own cocktails.",
+      "categories": ["Cooking", "Home Decor"],
+      "links": ["https://www.amazon.com/Bartesian-55300-Premium-Cocktail-Maker/dp/B07PJ5Q943/ref=sr_1_1_sspa?crid=2LYK8PKCCT7B9&dib=eyJ2IjoiMSJ9.KcgDQs1i6ZnAW3fvQwfESSLgEap0MWEVz8ypX_IL7kI9ruVSnv6Z9hEsWfBXcmjK7gh6XTbF6ggkbB0BdIhh5m7PUwtUjd6dB_pkf1TG6CVKjQaPzcOos-ZZST1nEEjctpdoPBCUMK8GWplfLGDM5ehF0NsLGoC3hUnGC5n5gp0w8bNgaD2w6Pd5zN9r9bCDMivFTuf_m96ij3KuK4C4clAUGbP-fgeRULi2re37K89UXYf0__svXlH1_TsUJGDIxrkSYDoBN0tCa4Ape5c0cjwm69q_vrew0XaARCqoluk.rEQNYo5c4BcqsTjXh5MDgTuLvVfa3o1RzIA1C6n73Iw&dib_tag=se&keywords=bartesian+cocktail+machine&qid=1733279906&sprefix=bartesian+c%2Caps%2C138&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"]
+    },
+    {
+      "id": 19,
+      "image": "./images/Denver.png",
+      "name": "Record Player",
+      "price": 45.99,
+      "description": "Guess what: record players don't have to be expensive. And guess again: their sound quality is way better than Spotify!",
+      "categories": ["Music", "Home Decor"],
+      "links": ["https://www.amazon.com/Bluetooth-Suitcase-Belt-Driven-Headphone-Turntable/dp/B0919VT3J1/ref=sr_1_4?crid=183AX5G58CKPW&dib=eyJ2IjoiMSJ9.VwatJZ2Ith9KvGYhyzc-YUiWT1TIf3UFRy9nWNS54JF_czmBnR_Bkntk4dGjnAZy644WLdUfKu5Me_WP8F9-O1p_MKTEb7iJn2k3fxmdBHc2ovyhZ9LOQXbT7hUUEO-iitFwvn1_J-bxgLdQzy9zJyFC2feDCOASqCdH6V-eWcWe0PHWzwl2KVArw9oA3a9lgMdUxXOrmFQThMloJ0vfP5VPwVUKUX9W12tE9FPyWPU._P4mCdpgPPvZedrCvNmw7R-C3QNkqEq0qQjTi2Gs9mQ&dib_tag=se&keywords=denver+record+player&qid=1733279921&sprefix=denver+rec%2Caps%2C146&sr=8-4"]
+    },
+    {
+      "id": 20,
+      "image": "./images/diamant-messenblok.jpg",
+      "name": "Kitchen Knifeset",
+      "price": 79.00,
+      "description": "Great gift for anyone looking to upgrade their kitchen. These knifes last a long time and improve the cooking experience.",
+      "categories": ["Cooking", "Home Decor"],
+      "links": ["https://www.amazon.com/Marco-Almond-Kitchen-Titanium-Utensils/dp/B09CPHSGL4/ref=sr_1_10?crid=2RP86V7GA9RF5&dib=eyJ2IjoiMSJ9.kNAfPi0l1H3yVNWUjD7dCz8f1-A9cqsKvgRXCJ4C15O-hAxRfxZncnynOv8_2xDf2xLrrp1K51Y_g7drjNx7qqvZREeQIIZ3PXfCaqQ96HdO3GT27Ao5-XBGnvLmdXUrhoGs0gPkFtZ2CuhtLxOCkg4tHR76al3I6wLcOvBJASo.FxhAyDKBtbAbNhwzJbvhnRYsco7a_HybM5ztIOA3JPA&dib_tag=se&keywords=diamant+kitchen+knifeset&qid=1733279945&sprefix=diamant+kitchen+knifeset%2Caps%2C117&sr=8-10"]
+    },
+    {
+      "id": 21,
+      "image": "./images/digitale-camera.jpg",
+      "name": "Digital Camera",
+      "price": 119.95,
+      "description": "This camera is small and therefore great to bring anywhere. Upload images directly from your camera to your phone!",
+      "categories": ["Photography", "Travel", "Gadgets", "Art"],
+      "links": ["https://www.amazon.com/PIXPRO-Friendly-FZ55-BK-Digital-Optical/dp/B09ZRN1N3Z/ref=sr_1_2?crid=15I3E8BC9I8U2&dib=eyJ2IjoiMSJ9.5BMAznk77ugmB9CBsWoIuFx6PC9n7LH9NsfV0-uw8GL71ipIsRbWK8DsXNYl8NROul19LqdoDn0yH0XL4RlcrYyesOEJ86nqCCjcM3MFiZK5gFnwLJGuXpV1SwYYZMmiYR0iw6AbBNnBiDHqSL0ZCNX7dq2iBoajHw3eW7MWa6g-rA3-ORJ1l2qUMVqOoyLkkO5NXGpURbBPii80vvW2PXfy1qk9zwyQ7hcbDDOFiZY.9zczIJ5-1izqF0H7fRQL7cS-rENJVrDlsFtb_aBlGAg&dib_tag=se&keywords=kodak+fz55&qid=1733279992&sprefix=kodak+fz%2Caps%2C150&sr=8-2"]
+    },
+    {
+      "id": 22,
+      "image": "./images/monopoly.jpg",
+      "name": "Monopoly",
+      "price": 25.00,
+      "description": "Who doesn't know monopoly? Who doesn't like monoploy? I have yet to find them. Great gift idea for anyone who likes competitive board games!.",
+      "categories": ["Board Games"],
+      "links": ["https://www.amazon.com/Monopoly-Family-Board-Players-Tokens/dp/B0B5HLZ8T4/ref=sr_1_5?crid=1TOX2KBLZYSHU&dib=eyJ2IjoiMSJ9.JQJ7OuXqsuqhFzAfYkHHFOgzxQ-3wJkdjEUWn-go7c13ghq2Gows0i5EZZTSEY2O5jcTet_vGr1aHpuQ8SG2PlaclGVT2nIt-EiOZSEg3F1NZHqw5E21vPBfAl93fpHrP8aJIV1OBDjDqfClwXmhsLwdUSkyl4ULuEuVuCjzNBUE5JHYIYA_4ai69h28HAhBpZImo5UZioDkzYShx3MIh4KGDyc7O91of0Ggg2YEuwXPNXM2MX6G0uEKK7M5PrwTDrq2DypEbSegZ4Vdc7b0pJcR6D8KGAukZaZaFwe3Ipg.nB6pyD_14Occ08nMqJcN9fMYkah23uyu8MDIdIv4Wvg&dib_tag=se&keywords=monopoly&qid=1733280011&sprefix=monopol%2Caps%2C165&sr=8-5"]
+    },
+    {
+      "id": 23,
+      "image": "./images/plants.jpg",
+      "name": "Indoor Plant",
+      "price": 39.99,
+      "description": "A plant gives any home more color. Better yet: these plants don't require water.",
+      "categories": ["Gardening", "Home Decor"],
+      "links": ["https://www.amazon.com/SAJANDAS-Artificial-Monstera-Deliciosa-Windowsill/dp/B09WY2JXJN/ref=sr_1_23?crid=TE8KDQJX8JIZ&dib=eyJ2IjoiMSJ9.fjc9XR8EoOumo7jVxoEh9JitktjbVT_-gwZD0kCHHLqLPmlKW_z8YeSOTNygRjrSrR6ln7CqQL_fYWupk4yp6VZaDSbhstqPseG1k2z0xlrBwto3eJ9hNyNkmSXTHUi5qCEdcLPGLYMfY-c3LiUaH4l7kNY-_kjLCkAiTg9Auxfpb1fu4Geb4xDI41uIvviKn71vt9sUMIWp0UuJOgzdNGa-RwQl-J9Vf3__Q6zEqFTyX00fXICn8DSGYYulxB2ZDJUhYG7o5sHYd0eyV9I6nABEUIEHuem7r3McwNizP3Q.fyxcrYu9_4N7soYeJPBpMPczB0fTPXhvI4tWVOXaaNw&dib_tag=se&keywords=home+plant&qid=1733280038&sprefix=home+plant%2Caps%2C145&sr=8-23"]
+    },
+    {
+      "id": 24,
+      "image": "./images/powerbank.jpg",
+      "name": "Powerbank",
+      "price": 48.99,
+      "description": "Every person runs into a dead battery every once in a while. Help that person avoid it by giving them a powerbank.",
+      "categories": ["Gadgets", "Travel"],
+      "links": ["https://www.amazon.com/INIU-Portable-20000mAh-High-speed-Flashlight/dp/B07YPY31FL/ref=sr_1_3?crid=2M6240VW4O4IY&dib=eyJ2IjoiMSJ9.QKGsYnUA7w9IYsHtGbbDBniqNrmhdDPm19JbJwztE7Mb2uW1kgU5nVPy95QoZiDjJj2_SAmpFFLpyk485TURn40_ELCAXd5nVIoI48KrUNu_B_zLufB_lFAIzPWvjdNqbba8EYos9KlA-_CoxvddTjuqbAeZBKo7_5bUlBK0-i3rUIkVlxdhtqiVkpxy2U9h5hE1tvGSGjZCvvNmb9j5eUVWeOH2FfrpMx6nvsiU9_8.Anw_gw2avmGORDWGNMZFhhsaI2Z5Nk9vT6F4ptbYfIc&dib_tag=se&keywords=power+bank&qid=1733280093&sprefix=powerbank%2Caps%2C164&sr=8-3"]
+    },
+    {
+      "id": 25,
+      "image": "./images/reisset-potjes.webp",
+      "name": "Travel Packages",
+      "price": 17.99,
+      "description": "These package tubes are very convenient for travellers. These refillable packages serve as the cornerstone of every fresh traveller!",
+      "categories": ["Travel", "Beauty"],
+      "links": ["https://www.amazon.nl/MOCOCITO-10-delige-Transparante-Reisflessen-Toilettas/dp/B0C9MCVHS7?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=LHYCLFGOY75F&dib=eyJ2IjoiMSJ9.f1xoVwqtg0sp6cLhuzqYKsBM4ZGn41--6l3yvNIjDyhp-EZAy7aRWeaINS0eU5I9rPl-snHhxlBriAHBZKw4dO9EP2FSQOXp_pyxaGdD8FNnruwPGJOG6ux4n2pgRGNLbJNG1tVOo8_wgBjX-Y_YxEhFjtwe73-0m_Dl8xXdP4oR_QD72r5jxU25mjq922XeLV68ZSNRN2iaibJRbfMbJQSyAkN_ZREG3klTpwxigm2M8dpb65mq9xfBviCjOBqpLF2hDhsLyNTEpgd0XTJgilV1gGXetGwBd5OquQDF76g.krivJCLoMLH5RCdUxWd4qYnOWladZesJH0gk_cgYtXY&dib_tag=se&keywords=VAIVE%2BReisflesjes%2BHandbagage%2B9-delig&qid=1732581081&sprefix=vaive%2Breisflesjes%2Bhandbagage%2B9-delig%2Caps%2C130&sr=8-25&th=1&linkCode=sl1&tag=ikzoekcadeau-21&linkId=be2a869b3d28136dfaac000080e0e1a9&language=nl_NL&ref_=as_li_ss_tl"]
+    },
+    {
+      "id": 26,
+      "image": "./images/rituals-set.jpg",
+      "name": "Rituals Giftset",
+      "price": 34.99,
+      "description": "Any gift from Rituals is guaranteed to be appreciated by anyone. Especially smelly people.",
+      "categories": ["Beauty", "Self Improvement"],
+      "links": ["https://www.amazon.com/RITUALS-Ritual-Sakura-Lotion-Refill/dp/B08PF2RPPQ/ref=sr_1_1?crid=PDDAQ0Z34Z8U&dib=eyJ2IjoiMSJ9.JO9L5NyGxPVt17xKGa3wMd6ErneZKZptn_VhhxFIrWrt4eYBV7M4zKaQDPR5tloK7TWmcaBFsq6jWZGIYf4kd3sTAznNWPhZJH1r-3LsZYQwazZVknPFDqKkm-EDFDZSj-Wt3kWSd5NNp6P8_6YFwWCV_7d2vMnmhcSkWpFR10FwsR04ZilcKD9L-7XD7o2HbuZHCM8yVzrS33U876Vv90dvT253hpvO84gGeSHizmy3ATFzJcApJkACpkiQDHQUpM6FYcW6Io4aNnNiTe6KRvV96-bUsXiKw64-RoP7eEs.b21qZUFostQgOHHd__BuJxrTwxD54X-5OvNaNl_RcUw&dib_tag=se&keywords=rituals+gift+sets+for+women&qid=1733280208&sprefix=rituals+%2Caps%2C122&sr=8-1"]
+    },
+    {
+      "id": 27,
+      "image": "./images/sieradendoos.webp",
+      "name": "Jewelry Box",
+      "price": 46.99,
+      "description": "This jewelry box is perfect for anyone looking to store their collection. It might also help you be less clumsy with your jewelry!",
+      "categories": ["Fashion", "Beauty"],
+      "links": ["https://www.amazon.com/Tian-Ye-Zhou-organizer-lockbuckle/dp/B0BYSHGQWW/ref=sr_1_2_sspa?crid=2PW97W83RS87&dib=eyJ2IjoiMSJ9.V54oxKKZOwqixELv6C0G6rCi5vDJyQwiIzgU-i1PSfosxO8cVNfMo3G-JeKq4LlgMgLxElOTq51kcGt1jaOiAeTdKc7Vl0MrgTBh_L0HlkpCZzfvZDFfg8Ps13hWln-2VyE5pKxokfjp1NBlMqk2pE6rimu0Nsiml5--EtiHtPZ7m_NcGvK90VquVbuRMdIKIpy5dyMgkvu8YCUkWjxF6Fb-QJ3KoKy4svBbrdZWf72pjOdMIyIuESrWlCNlbCcH44wGQVwR-o-gcyiKzb0lAcHyYcV7luE8rZJSkaK2ZF0.4ftvVildZ-TK8YIasnjoyRRlqD9bh5fg0O7pvo__tf4&dib_tag=se&keywords=jewelry+box&qid=1733280254&sprefix=jewelery+bo%2Caps%2C173&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"]
+    },
+    {
+      "id": 28,
+      "image": "./images/simpel-boek.webp",
+      "name": "Cookbook",
+      "price": 34.99,
+      "description": "Give this book to someone who loves cooking. Or give it to someone because they can't cook at all. Both great reasons.",
+      "categories": ["Reading", "Cooking"],
+      "links": ["https://www.amazon.com/Half-Baked-Harvest-Super-Simple/dp/0525577076/ref=sr_1_1_sspa?crid=3E9TMQTSMJ8XQ&dib=eyJ2IjoiMSJ9.LQNF9prT58TDAIIzLomcEjMAAPC98UltwHWo46tgjm2u72aSzWPrkyw_XPjlgD64bX1J-PdnOkRAbQkTGdleTSL075003jHyomCQT8ZcSR36zDfO7NFWdXOUO0TjNf4YDhHFF9qMeMzu7A3Lc1DqbzI3vNSsXGpgcOE_NduHf57UR58z5lzRyBRzdDiWt49OUdo9uSQd9IrPR5pBBzq14v-Ty6XXTWlqn6LtAWrGZIIvp-9SmZk95lrU_tsvMxY1sjxszVVo1BK6UlrGamjGyXnVIKbXZtmt7I-VXV3uZh4.taJzz41VPEjTtCgvBHOWgeQ17mR_cyX84aJub04yIGY&dib_tag=se&keywords=simple+cookbook&qid=1733280276&sprefix=simpel+cookbook%2Caps%2C136&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"]
+    },
+    {
+      "id": 29,
+      "image": "./images/skincare.jpg",
+      "name": "Skincare Set",
+      "price": 54.99,
+      "description": "Cerave is one of the best skincare brands. Great gift for people who are conscious about skincare.",
+      "categories": ["Beauty", "Self Improvement"],
+      "links": ["https://www.amazon.com/CeraVe-Hyaluronic-Ceramides-Niacinamide-Non-Drying/dp/B07RJ18VMF/ref=sr_1_9?crid=2HNVMNMZSM7OR&dib=eyJ2IjoiMSJ9.XeuwPduDkoqXvp0uGCQM_qnxsvV0oCi2z3tLO4EnGYVNfaCgthgSuPbZ6LqxCBGst6Tz_09yxAdyAZFPIGwSzPu9DOycddva8uUn2Z7zPrWu1aHe4Cv6g2Y_xKd8IywVJvjY3GTtg8mNLLdgp4ktUCCuAFZZsnpC87tW5PYqOljiGzZInNQQYWcXYIQbFE7mkD91LMZ57Ise0Ds87H120em31ea99kitsBd0uwHNDGTBr7i22OsyirvKCAkAd92ZK0jrN34K8J72C7WSids_u8B0tTeJK6C_O3-s8BGjxpU.L4mEcXLIqlHHSGdmJGugZqzyb-d8jsgzHS44rVMrRl0&dib_tag=se&keywords=cerave&qid=1733280583&sprefix=verave%2Caps%2C203&sr=8-9"]
+    },
+    {
+      "id": 30,
+      "image": "./images/springtouw.jpg",
+      "name": "Jumping Rope",
+      "price": 8.99,
+      "description": "No matter where you are, sometimes you want to get some cardio in. A jumping rope is the perfect addition to any outdoors workout.",
       "categories": ["Fitness", "Sports"],
-      "links": ["https://example.com/fitness-band"]
+      "links": ["https://www.amazon.com/Tangle-Free-Jumping-Bearings-Adjustable-Handles/dp/B09DF9NWC7/ref=sr_1_1_sspa?crid=228Z3E6X7Y3TF&dib=eyJ2IjoiMSJ9.NtuOlB0Vj28M8Ou67zQRZTGhMotdX24uCePX4Ymw0eHRzuJ70UcHmPGjN7i_coypJpZHhaY4YhSqxIsEtgJLJNbKkiV5NscQaXwWRjXUeJ8-NQxjzci_Lku2emHMqWV5qzB0M1NnTEyr0wgPUi40jauf-FULJyi6QBSKW365n_fBT-trdSUf3a8Ko2TWQZdagm3MF6sx5e-0kuXVDB-WC1ywq8vpP4vdQ-030ocKJBR92rFU0oLrtka35YAblhdTM7fQ6N2FP5rtlTK6XcUDsybZ7F7p6TR6IdCjxh-Q3Ds.Zju3SU9ebhuCVNgOTb_YZFyz-Iv4xFiwhQZQTROJVz4&dib_tag=se&keywords=jumping+rope&qid=1733280605&sprefix=jumping+rop%2Caps%2C148&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"]
     },
     {
-      "image": "images/gift3.jpg",
-      "name": "Notebook Set",
-      "price": 22.50,
-      "description": "Beautiful notebooks for journaling or sketching.",
-      "categories": ["Reading", "Art"],
-      "links": ["https://example.com/notebook"]
+      "id": 31,
+      "image": "./images/surrounded.webp",
+      "name": "Surrounded by Idiots",
+      "price": 23.00,
+      "description": "One of the best selling books to come out in 2023. A great book about understanding human behaviour in everyday situations.",
+      "categories": ["Self Improvement", "Reading"],
+      "links": ["https://www.amazon.com/Surrounded-by-Idiots-audiobook/dp/B07VCV4QMH/ref=sr_1_1?crid=1LVCJ6KWL9U39&dib=eyJ2IjoiMSJ9.SuK4iXUwhlbB2qpshfraZxZYDFaIjCLdCYoJHRoOZDXOvquWs0XdJKbkAXBHSbDj5bcsOn8dODgpqQCVurJqcJCZyNFsA6Bj--rxhI_a7WeSt32RXHcvlg6gA-6yqnHWJ7K2ffHp720Y4V_B4mgOnYq3TQ9X_f2ZBEBeS_0WcYcll_hhhJt668Eh9WnSzbCl5hDEOyDAIsUA17a9iNR4A9Bi096SqDVFTT7rF4YzcjY.ZXYhZJabzoKY5tNMFeJF8TYmCKzntf73OYASPp9tbGc&dib_tag=se&keywords=surrounded+by+idiots&qid=1733280622&sprefix=surrounded+by+idiots%2Caps%2C142&sr=8-1"]
     },
     {
-      "image": "images/gift4.jpg",
-      "name": "Bluetooth Headphones",
-      "price": 60.00,
-      "description": "Wireless headphones with great sound quality.",
-      "categories": ["Technology", "Music"],
-      "links": ["https://example.com/headphones"]
+      "id": 32,
+      "image": "./images/travelz-reistas.webp",
+      "name": "Travelz Bag",
+      "price": 21.95,
+      "description": "If you are looking for a gift for a traveller, consider this useful and nice-looking bag. Great for storage and comfortable to carry.",
+      "categories": ["Travel", "Fashion"],
+      "links": ["https://www.amazon.com/Sports-Duffel-Bag-inch-Travel/dp/B088R5PWTR/ref=sr_1_3_sspa?crid=74LCJW6YEAD5&dib=eyJ2IjoiMSJ9.KNwAtR8m_Aa4XIbc2TdgOOv2ELelt18Sx6r9JngRn1zM1yIuZ4Aymdg1SiAod7DUF1t-p397TsAU1IQqh7fXwbBiSfREpgypXYZickgfoPMPkE-ZGdcN4YVc183iYucFIXU1XqBHjI9N1R21sfehyYx6ySDH3IcBEWg4Ra4rEacBdbj4cRy4JUO8CLNjOYs_9DhzHt3vjljag1cc0ADln4oCehRiYZWYyRnf_Ppq4ymY0CDfOGYc-XIZlrNVrOgDOapTAu0QW9oB4gFzbvqbDxvULqvgH7o2hvqnIvt9cys.-O1IkzPiHaVTx3XGWrSeIXs00na35d06hnFW5zJAv58&dib_tag=se&keywords=travelz+travel+bag&qid=1733280671&sprefix=travel+travel+bag%2Caps%2C108&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"]
     },
     {
-      "image": "images/gift5.jpg",
-      "name": "Cookware Set",
-      "price": 99.99,
-      "description": "A non-stick cookware set for home chefs.",
-      "categories": ["Cooking"],
-      "links": ["https://example.com/cookware"]
+      "id": 33,
+      "image": "./images/vinyl.jpg",
+      "name": "Adele Album Vinyl",
+      "price": 31.99,
+      "description": "One of the greatest artists of our generation. This album is a must have for anyone who owns a record player and/or loves Adele.",
+      "categories": ["Music"],
+      "links": ["https://www.amazon.com/30-Amazon-Exclusive-White-Vinyl/dp/B09HVTKLPQ/ref=sr_1_4?crid=PKTBWTY4Q6KZ&dib=eyJ2IjoiMSJ9._OHOv-wTp2CNFHxRY1TQ_og1fGEbguX_A0yA8r5dnzEHgc258THPJloWBF5Tj2SitPWUkkTDMf2djy5MVSLPDFwRMqdhY46NZ-SjVr4WB-lM7R2dZ1hwfxx29OGGTMdDV2-V8hq6IxzQgvViBuHV25iVpb_pN1PcBzthA-iZe9SKlsnhuWQcNo-YOYEETgLIC7kubeH7FcuflEnWXrFOUqqHYKx7-TYuSfI0mN41WBc.bri9B7RTuGoS1Uq2sFV--FfEMWKLK-4_2HEpnKw1Mkw&dib_tag=se&keywords=adele+vinyl&qid=1733280690&sprefix=adele+vinyl%2Caps%2C145&sr=8-4"]
     },
     {
-      "image": "images/gift6.jpg",
+      "id": 34,
+      "image": "./images/woodwick-kaars.jpg",
+      "name": "Woodwick Candle",
+      "price": 31.95,
+      "description": "Woodwick candles are the best in the game; they smell great and create a cozy atmosphere in any home.",
+      "categories": ["Home Decor"],
+      "links": ["https://www.amazon.com/WoodWick-Medium-Hourglass-Scented-Cinnamon/dp/B07DH55H51/ref=sr_1_11?content-id=amzn1.sym.c9738cef-0b5a-4096-ab1b-6af7c45832cd%3Aamzn1.sym.c9738cef-0b5a-4096-ab1b-6af7c45832cd&dib=eyJ2IjoiMSJ9.dbnKSCduwDf29EP2mbDytl2hgh5I0ZlcWHDhMlnBjnToj27hdYi09t3ahLKRuJqzY7n9NQkZ9cMC-qNZv9SK4X-yjrvhJH6rHGTPIJ7NJtpJcPOsAzt5yEsWp3dbzh3fWR1I0AWB4IthBOg8S1-UyD6-4ca1ldJrAjzvUYQbatI544m9ZT8L6X92tpbiJQqizgbL5A9zdvwBFdthPybgB7bd_m2LtfHv7FU3upE6H9A23E3Ckrc7QeQilcamrqzpX5OFBWxpI0wnwO0KIXY-MlGi85FLh8jdoSCecqRMAXc.1suIqZq5G-kpHWtymT-EkiXupbXWwJBikKWZxp3dEAY&dib_tag=se&keywords=woodwick+candle+Hourglass+candles&pd_rd_r=7c916131-3e12-4f36-86ce-53d114ffacba&pd_rd_w=aRNTg&pd_rd_wg=YdZdw&pf_rd_p=c9738cef-0b5a-4096-ab1b-6af7c45832cd&pf_rd_r=TFC0AXTZZGSTHXGD6KCS&qid=1733280710&sr=8-11"]
+    },
+    {
+      "id": 35,
+      "image": "./images/yankees-cap.avif",
+      "name": "Yankees Cap",
+      "price": 28.00,
+      "description": "A Yankees cap is something anyone would wear. Unless you're not a Yankees fan.",
+      "categories": ["Fashion", "Sports"],
+      "links": ["https://www.amazon.com/York-Yankees-Juke-Adjustable-Black/dp/B00HWVKJR4/ref=sr_1_2?crid=3MUXANURIJBNN&dib=eyJ2IjoiMSJ9.jTSRWVoXcpfg0fcO_3nypLTYHRwvsgTUDp04o5ha637a3M_gRzoaXUDo6shwlpfevi9On-WMT-qrR_Kqa11hpyB7__YqOepBLD7obTgfWCZkzParhuZ-7v_xyyCQSPnzm7Kpwkizs8gLAG4HCM7Zpf7C4HAT4ED0kdsMVKZKcUEYCznxtMWUcR75C8trtc8kZ0pZvPsiWPj99HJyhO-eK83b187z_u2_20UqWxmrP2TQFqA2O6mCSc9eOfW8tjxtGfqfY-SjE5I3TYRNw_rShIRTmLBVQl5loNAZ_cki2xQ.i6_80FAGmTiosBJ37MOoPD_Yx-v-mCWMo0DnDfstqss&dib_tag=se&keywords=yankees+cap&qid=1733280741&sprefix=yankees+cao%2Caps%2C173&sr=8-2"]
+    },
+    {
+      "id": 36,
+      "image": "./images/yogamat.jpg",
       "name": "Yoga Mat",
-      "price": 30.00,
-      "description": "Comfortable yoga mat for home and studio use.",
-      "categories": ["Fitness", "Health"],
-      "links": ["https://example.com/yoga-mat"]
-    },
-    {
-      "image": "images/gift7.jpg",
-      "name": "Board Game",
-      "price": 25.00,
-      "description": "Fun family board game for all ages.",
-      "categories": ["Games", "Family"],
-      "links": ["https://example.com/board-game"]
-    },
-    {
-      "image": "images/gift8.jpg",
-      "name": "Coffee Maker",
-      "price": 80.00,
-      "description": "Brews a perfect cup every morning.",
-      "categories": ["Cooking", "Technology"],
-      "links": ["https://example.com/coffee-maker"]
-    },
-    {
-      "image": "images/gift9.jpg",
-      "name": "Canvas Art Set",
-      "price": 35.00,
-      "description": "Includes paints, brushes, and canvases.",
-      "categories": ["Art"],
-      "links": ["https://example.com/art-set"]
-    },
-    {
-      "image": "images/gift10.jpg",
-      "name": "Smart Speaker",
-      "price": 120.00,
-      "description": "Voice-activated smart assistant.",
-      "categories": ["Technology"],
-      "links": ["https://example.com/smart-speaker"]
-    },
-    {
-      "image": "images/gift11.jpg",
-      "name": "Wine Glass Set",
-      "price": 40.00,
-      "description": "Elegant glasses for wine enthusiasts.",
-      "categories": ["Cooking"],
-      "links": ["https://example.com/wine-glass"]
-    },
-    {
-      "image": "images/gift12.jpg",
-      "name": "E-Reader",
-      "price": 150.00,
-      "description": "Read thousands of books on the go.",
-      "categories": ["Reading", "Technology"],
-      "links": ["https://example.com/e-reader"]
-    },
-    {
-      "image": "images/gift13.jpg",
-      "name": "Garden Tool Set",
-      "price": 50.00,
-      "description": "Perfect for hobby gardeners.",
-      "categories": ["Outdoors"],
-      "links": ["https://example.com/garden-tools"]
-    },
-    {
-      "image": "images/gift14.jpg",
-      "name": "Outdoor Camping Tent",
-      "price": 200.00,
-      "description": "Waterproof and durable for outdoor adventures.",
-      "categories": ["Outdoors", "Adventure"],
-      "links": ["https://example.com/tent"]
-    },
-    {
-      "image": "images/gift15.jpg",
-      "name": "Gourmet Chocolate Box",
-      "price": 30.00,
-      "description": "Luxury chocolates for every occasion.",
-      "categories": ["Cooking"],
-      "links": ["https://example.com/chocolate"]
+      "price": 21.98,
+      "description": "A great yoga mat is essential for anyone who wants to workout at home. Not only great for yoga but also for core and strength exercises.",
+      "categories": ["Fitness", "Sports"],
+      "links": ["https://www.amazon.com/Manduka-Yoga-Pilates-Black-Sage/dp/B005NZ7PEQ/ref=sr_1_7?crid=XHMILOVU55RU&dib=eyJ2IjoiMSJ9.xaQn5LivaADn7cc6PxzQx1FVLydadyFd4FWxvgoGvmir7gzLI99zeqRBfRnGd0AXaSp4DMFka4kGi8XgqrQ3GyMmZhNRnJfcAhQ0OL-bYyb8JWwa9Zqt4Q2fcbqkGHSmIygf9fSUyNWkirtBZ5pXjThMMyxSA6dGftACou_fBHfz00UvQMFC5KlDvhxtvdiiVlI1uHo1fnNnr8PQ8rRjpJJmAs_hlh04-ojDc8gn2NLlw3uuwch908bvXKohJY133UtPJx41aYrpksD1002jTQwdsp3FW5RpTF5gcXqc5c0.--7rbdr1Yqi9Op_3ysKBCWCNdiwRKPdVBiBLx4eGzRw&dib_tag=se&keywords=yoga%2Bmat&qid=1733280766&sprefix=yoga%2Bmat%2Caps%2C146&sr=8-7&th=1"]
     }
   ]
-  
-  

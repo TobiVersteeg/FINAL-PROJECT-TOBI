@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="filter-bar">
+    <h2>GiftFinder.com</h2>
+    <div class="filter-options">
+      <h3>Hobbies & Interests</h3>
+      <label><input type="checkbox" value="Reading"> 📚 Reading</label>
+      <label><input type="checkbox" value="Fitness"> 🏋️‍♀️ Fitness</label>
+      <label><input type="checkbox" value="Cooking"> 🍳 Cooking</label>
+      <label><input type="checkbox" value="Gardening"> 🌱 Gardening</label>
+      <label><input type="checkbox" value="Photography"> 📸 Photography</label>
+      <label><input type="checkbox" value="Travel"> ✈️ Travel</label>
+      <label><input type="checkbox" value="Art"> 🎨 Art</label>
+      <label><input type="checkbox" value="Music"> 🎶 Music</label>
+      <label><input type="checkbox" value="Writing"> ✍️ Writing</label>
+      <label><input type="checkbox" value="Self Improvement"> 🧘‍♂️ Self Improvement</label>
+      <label><input type="checkbox" value="DIY"> 🛠️ DIY</label>
+      <label><input type="checkbox" value="Sports"> ⚽ Sports</label>
+      <label><input type="checkbox" value="Fashion"> 👗 Fashion</label>
+      <label><input type="checkbox" value="Beauty"> 💄 Beauty</label>
+      <label><input type="checkbox" value="Gadgets"> 💻 Gadgets</label>
+      <label><input type="checkbox" value="Home Decor"> 🛋️ Home Decor</label>
+      <label><input type="checkbox" value="Board Games"> 🎲 Board Games</label>
+    </div>
+    <div class="filter-category">
+      <h4>Price Range</h4>
+      <input type="range" id="price-slider" min="1" max="500" value="500" step="1">
+      <span id="price-display">€500</span>
+    </div>    
+    <div id="selected-filters"></div>
+  </div>
+  <div id="gift-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
